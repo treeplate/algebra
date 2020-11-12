@@ -1,4 +1,6 @@
 import "dart:io";
+
+///Algebra solver
 String solve(String equation) {
   List<Object> things = equation.split(" ").cast<Object>().toList();
   for (int i = 0; i < things.length; i++) {
