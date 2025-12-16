@@ -1,0 +1,5 @@
+run = "dart main.dart"
+entrypoint = "main.sh"
+
+[agent]
+expertMode = true
